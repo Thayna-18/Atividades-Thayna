@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario continuação</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Identificação</legend>
+        <label for="cNome">Nome</label>
+        <input type="text" id="cNome" required>
+        <br><br>
+        <p>onde você mora?</p>
+        <input type="submit" value="Mostrar"><br>
+        <input type="radio">
+        <label for="">Cidade</label><br>
+        <input type="radio">
+        <label for="">Interior</label>
+    </fieldset>
+    
+    <fieldset>
+        <p>Qual é o seu meio de transporte?</p>
+        <input type="checkbox">
+        <label for="">Bicicleta</label><br>
+        <input type="checkbox">
+        <label for="">Onibûs</label><br>
+        <input type="checkbox">
+        <label for="">Mêtro</label>
+    </fieldset>
+
+    <fieldset>
+ <p>selecione o seu time</p>
+ <select name="" id="">
+    <option value="São Paulo">São Paulo</option>
+    <option value="Palmeiras">Palmeiras</option>
+    <option value="Flamengo">Flamengo</option>
+ </select><br><br>
+</fieldset>
+
+<fieldset>
+ <p>escolha a sua Cidade</p>
+ <label for="">Cidade</label>
+<input autocomplete="on" list="cidade"placeholder="sua cidade">
+<datalist id="cidade">
+<option value="São Paulo">São Paulo</option>
+<option value="Bahia">Bahia</option>
+<option value="Minas Gerais">Minas Gerais</option>
+<option value="Rio De Janeiro">Rio De Janeiro</option>
+</datalist><br><br>
+</fieldset>
+
+<fieldset>
+0 <input type="range"> 100 <br><br>
+
+<p>sugestões, elogios e críticas:</p>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+</fieldset>
+ <input type="submit" value="encaminhar">
+
+        </form>           
+</body>
+</html>

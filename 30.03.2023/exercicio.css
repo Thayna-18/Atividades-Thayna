@@ -1,0 +1,21 @@
+table, th, td{
+     3px
+}
+
+table{
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.linha1{
+    background-color:cadetblue
+}
+
+.linha2{
+    background-color:darkgray
+}
+
+
+   
